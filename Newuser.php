@@ -167,10 +167,10 @@
                     if(!empty($name) && !empty($relation) && !empty($city) && !empty($state) && !empty($area) && !empty($gender)
                     && !empty($date) && !empty($month) && !empty($year))
                     {
-                        $db_username="id11849615_root";
-                        $db_password="pass123";
+                        $db_username="#";
+                        $db_password="#";
                         $db_host="localhost";
-                        $db_name="id11849615_votertable";
+                        $db_name="#";
 
                         $conn=new mysqli($db_host,$db_username,$db_password,$db_name);
                         if(mysqli_connect_error())
