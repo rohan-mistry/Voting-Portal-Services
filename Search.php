@@ -134,7 +134,7 @@ require("library/fpdf.php");
                                 }
                                 
                             
-                                $sqlconn=new mysqli('localhost','id11849615_root','pass123','id11849615_votertable')or die($sqlconn->connect_error);
+                                $sqlconn=new mysqli('#','#','#','#')or die($sqlconn->connect_error);
                                 $result=$sqlconn->query("SELECT * FROM voters") or die($sqlconn->error);
                            
                                 $found=0;
